@@ -1,0 +1,27 @@
+{
+  "name": "body-lock",
+  "version": "0.0.1",
+  "description": "A script to reliably prevent the scroll of the body.",
+  "main": "dist/body-lock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8lall0/body-lock.git"
+  },
+  "keywords": [
+    "body",
+    "lock",
+    "css",
+    "js",
+    "html",
+    "scroll"
+  ],
+  "author": "Savino Pio Liguori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8lall0/body-lock/issues"
+  },
+  "homepage": "https://github.com/8lall0/body-lock#readme"
+}
