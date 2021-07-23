@@ -1,4 +1,4 @@
-export class BodyLock {
+class BodyLock {
   static lock() {
     const body = document.body;
     if (body.classList.contains('body-locked') === true) {

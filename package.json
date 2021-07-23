@@ -2,9 +2,9 @@
   "name": "body-lock",
   "version": "0.0.1",
   "description": "A script to reliably prevent the scroll of the body.",
-  "main": "dist/body-lock.js",
+  "main": "src/body-lock.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild src/body-lock.js --minify --outfile=dist/body-lock.min.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/8lall0/body-lock/issues"
   },
-  "homepage": "https://github.com/8lall0/body-lock#readme"
+  "homepage": "https://github.com/8lall0/body-lock#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.15"
+  }
 }
